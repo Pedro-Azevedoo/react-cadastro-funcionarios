@@ -1,0 +1,10 @@
+.banner{
+    /* width: 100vw; */
+    background-image: linear-gradient(to right, #043674 , #094bb0);
+    text-align: center;
+    padding: 3rem;
+}
+
+img{
+    width: 20%;
+}

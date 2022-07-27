@@ -1,0 +1,18 @@
+button{
+    background-color: #0848a9;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    width: 6.5rem;
+    height: 2.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: aliceblue;
+}
