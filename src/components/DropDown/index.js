@@ -12,10 +12,11 @@ const DropDown = (props) => {
         <div className='camp'>
             <label>{props.label}</label>
             <select value={props.value} onChange={aoDigitado} required={props.obrigatorio}>
-                <option value=""  disabled>Selecione um Setor</option> 
+                {/* <option value="" selected> </option>  */}
+                <option value="" selected>Selecione um Setor</option> 
 
                 {
-                array.map(element => <option key={element} value={element}>{element}</option>)
+                     array.map(element => <option key={element} value={element}>{element}</option>)
                 }
 
             </select>

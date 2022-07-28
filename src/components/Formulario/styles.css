@@ -1,10 +1,11 @@
-section{
+.form{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
-form{
+.form form{
     display: flex;
     background-color: #0849aa05;
     width: 30%;
@@ -23,7 +24,7 @@ form{
 }
 
 
-h3{
+.form form h3{
     font-size: 1.5rem;
     color: #383838;
 }

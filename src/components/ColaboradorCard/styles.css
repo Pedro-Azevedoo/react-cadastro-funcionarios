@@ -19,15 +19,21 @@
     border-radius: 10px 10px 0px 0px;
 }
 
-.colorSector img{
+.colorSector .img{
     width: 6.3rem;
     height: 6.3rem;
-    left: 27%;
+    left: 26.4%;
     top: 34%;
     position: absolute;
     clip-path: circle(50%);
-    border: 0.3rem Solid;
+    border: 0.3rem double;
     border-radius: 50%;
+    display: flex;
+}
+.colorSector img{
+    object-fit: cover;
+    clip-path: circle(50%);
+    min-width: 6.3em;
 }
 
 .rectangle .content{

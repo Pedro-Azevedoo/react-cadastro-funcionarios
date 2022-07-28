@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './components/Banner/index';
 import Formulario from './components/Formulario';
 import Time from './components/Time';
+import TitleSection from './TitleSection';
 
 function App() {
   const [colaboradores, setColaboradores] = useState([]);
@@ -92,7 +93,9 @@ function App() {
     <div className="App">
         <Banner />
         <Formulario times={times.map(time => time.nome)} cadastroColaborador={colaborador => adicionarColaborador(colaborador)}/>
-        {times.map(time => <Time key={time.nome} nome={time.nome} corPrim={time.corPrimaria} corSec={time.corSecundaria} colaboradores={colaboradores}/>)}
+        <TitleSection title="Colaboradores" />
+        {times.map(time => <Time key={time.nome} nome={time.nome} corPrim={time.corPrimaria} corSec={time.corSecundaria}
+         colaboradores={colaboradores.filter(colaborador => colaborador.dropdownSetor === time.nome)}/>)}
     </div>
   );
 }

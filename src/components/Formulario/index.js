@@ -11,7 +11,7 @@ import { useState } from "react";
     const [nome, setNome] = useState('');
     const [cargo, setCargo] = useState('');
     const [imagem, setImagem] = useState('');
-    const [dropdownSetor, setDropdownSetor] = useState('Administrativo');
+    const [dropdownSetor, setDropdownSetor] = useState('');
 
     function save(event){
         console.log(event);
@@ -23,10 +23,15 @@ import { useState } from "react";
             imagem,
             dropdownSetor
         })
+        
+        setNome('');
+        setCargo('');
+        setImagem('');
+        setDropdownSetor('');
     }                  
 
     return (
-        <section>
+        <section className="form">
             <form onSubmit={save}>
                 <h3>Preencha os dados do Colaborador</h3>
                 <InputText value={nome} aoAlterado={valor => setNome(valor)} obrigatorio={true} label="Nome" placeholder="Digite o nome" />
