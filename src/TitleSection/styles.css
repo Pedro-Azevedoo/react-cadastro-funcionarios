@@ -2,9 +2,16 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 8rem;
 }
 
 .title{
-    /* color: gray; */
-    font-size: 2rem;
+    font-size: 3rem;
+    background-color: #3ea908;
+    color: #FFF;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    width: 80%;
+    text-align: center;
+
 }

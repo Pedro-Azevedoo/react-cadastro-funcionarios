@@ -7,7 +7,7 @@
     box-shadow: 5px 5px 15px rgb(0 0 0 / 8%);
     border-radius: 10px;
     width: 14rem;
-    height: 14rem;
+    height: 17rem;
     padding: 0.3rem;
 }
 
@@ -48,6 +48,7 @@
     margin: 0;
     font-family: 'Segoe UI';
     font-weight: 600;
+    text-align: center;
     -webkit-text-stroke-width: 0.4px;
     font-size: 1.2rem;
     /* -webkit-text-stroke-color: #383838;*/
@@ -57,6 +58,7 @@
     font-family: 'Segoe UI';
     font-weight: 500;
     margin: 0.5em;
+    text-align: center;
     color: #3a3a3a;
     font-size: 1rem;
 }
