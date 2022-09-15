@@ -3,9 +3,10 @@ import InputText from "../InputText";
 import ButtonSubmit from "../ButtonSubmit";
 import './styles.css';
 import { useState } from "react";
+import Arrow from "../Arrow";
 
 
-    const Formulario = (props) => {
+const Formulario = (props) => {
 
 
     const [nome, setNome] = useState('');
@@ -14,7 +15,6 @@ import { useState } from "react";
     const [dropdownSetor, setDropdownSetor] = useState('');
 
     function save(event){
-        console.log(event);
         event.preventDefault();
 
         props.cadastroColaborador({
@@ -23,6 +23,8 @@ import { useState } from "react";
             imagem,
             dropdownSetor
         })
+        
+        alert("Cadastro realizado com sucesso!");
         
         setNome('');
         setCargo('');
@@ -40,6 +42,8 @@ import { useState } from "react";
                 <DropDown value={dropdownSetor} aoAlterado={valor => setDropdownSetor(valor)} obrigatorio={true}  label="Setor" array={props.times} />
                 <ButtonSubmit>ENVIAR</ButtonSubmit>
             </form>
+
+            <Arrow />
         </section>
     )
 

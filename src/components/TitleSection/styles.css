@@ -1,0 +1,29 @@
+html, body{
+    scroll-behavior: smooth;
+
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -4rem;
+    visibility: hidden;
+}
+
+.divTitle{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #1b1d27;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    background-color: rgb(255 255 255 / 7%);
+    color: #FFF;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    width: 80%;
+    text-align: center;
+
+}

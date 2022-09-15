@@ -1,20 +1,29 @@
 .form{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    background-image: url("../../../public/images/teste.jpg");
+    height: 75vh;
+    padding: 8rem 0rem;
 }
 
 .form form{
     display: flex;
-    background-color: #0849aa05;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     width: 30%;
     box-shadow: 10px 10px 30px rgb(0 0 0 / 20%);
     border: none;
     font-size: 1rem;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
     /* height: 39rem; */
     flex-direction: column;
     align-content: center;
@@ -27,4 +36,6 @@
 .form form h3{
     font-size: 1.5rem;
     color: #383838;
+    color: #ffffff;
+    text-shadow: 0px 0px 6px #000000;
 }

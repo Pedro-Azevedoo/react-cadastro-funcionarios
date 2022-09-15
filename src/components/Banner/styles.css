@@ -1,10 +1,16 @@
 .banner{
-    /* width: 100vw; */
-    background-image: linear-gradient(to right, #043674 , #094bb0);
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(0 0 0 / 70%) , rgb(40 44 60), rgb(0 0 0 / 70%));
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner img{
-    width: 20%;
+    width: 20rem;
 }

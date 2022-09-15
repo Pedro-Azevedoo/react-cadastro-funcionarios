@@ -1,0 +1,57 @@
+.d-flex {
+    display: flex;
+}
+
+.j-content-center {
+    justify-content: center;
+}
+
+.hero-arrow-txt {
+    font-family: "Open Sans";
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: 600;
+
+}
+
+.hero-arrow-animation {
+    position: relative;
+    animation: teste 1s infinite;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-arrow {
+    border-radius: 0.1rem;
+    border-right: 0.3rem solid white;
+    border-bottom: 0.3rem solid white;
+    border-color: white;
+    width: 3rem;
+    height: 3rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.arr{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@keyframes teste {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 15px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
