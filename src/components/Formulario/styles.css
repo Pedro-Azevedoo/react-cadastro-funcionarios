@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     background-image: url("../../../public/images/teste.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 75vh;
     padding: 8rem 0rem;
 }
